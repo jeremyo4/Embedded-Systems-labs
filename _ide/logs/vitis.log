@@ -1,0 +1,872 @@
+14:23:08 INFO  : updated workspace path: C:\Users\nedillon\Documents\lab1
+14:23:08 INFO  : created .gitignore file for the project C:\Users\nedillon\Documents\lab1
+14:23:09 INFO  : Successfully created repository data at C:\Users\nedillon\AppData\Local\Temp\rigel_lopper_nedillon10972282802304611958
+14:23:09 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\nedillon\AppData\Local\Temp\rigel_lopper_nedillon13074793062471059567 -r C:\Users\nedillon\AppData\Local\Temp\rigel_lopper_nedillon10972282802304611958\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:23:09 INFO  : Embedded Template List generated successfully
+14:23:09 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\repo.py -st   C:\Xilinx\Vitis\2024.2\data\embeddedsw && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:23:10 INFO  : Successfully created repository data at C:\Users\nedillon\Documents\lab1/_ide\.wsdata
+14:23:10 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\nedillon\AppData\Local\Temp\rigel_lopper_nedillon8566082989778166161 -r C:\Users\nedillon\Documents\lab1\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:23:10 INFO  : Embedded Template List generated successfully
+14:24:04 INFO  : Found no platform with name 'lab1_hw_wrapper' in install repositories
+14:24:05 INFO  : Using sdt generation script from C:\Xilinx\Vitis\2024.2\vitis-server\scripts\platformutil.tcl
+14:24:05 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && xsct.bat C:\Xilinx\Vitis\2024.2\vitis-server\scripts\platformutil.tcl C:\Users\nedillon\Documents\lab1_hw\ece315_lab1\lab1_hw_wrapper.xsa C:\Users\nedillon\Documents\lab1\.rigel_lopper_temp_platform\lab1_hw_wrapper\hw\sdt && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:24:11 INFO  : SDT generated successfully
+14:24:11 INFO  : Lopper command for cpu List generation: lopper --enhanced --werror -f -O C:\Users\nedillon\Documents\lab1\.rigel_lopper -i C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Lib\site-packages\lopper\lops\lop-cpu-oslist.dts C:\Users\nedillon\Documents\lab1\.rigel_lopper_temp_platform\lab1_hw_wrapper\hw\sdt\system-top.dts
+14:24:11 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && lopper --enhanced --werror -f -O C:\Users\nedillon\Documents\lab1\.rigel_lopper -i C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Lib\site-packages\lopper\lops\lop-cpu-oslist.dts C:\Users\nedillon\Documents\lab1\.rigel_lopper_temp_platform\lab1_hw_wrapper\hw\sdt\system-top.dts && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:24:11 INFO  : CPU List generated successfully
+14:24:33 INFO  : Platform lab1_platform creation started.
+14:24:33 INFO  : Found no platform with name 'lab1_hw_wrapper' in install repositories
+14:24:34 INFO  : Lopper command for cpu List generation: lopper --enhanced --werror -f -O C:\Users\nedillon\Documents\lab1\.rigel_lopper -i C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Lib\site-packages\lopper\lops\lop-cpu-oslist.dts C:\Users\nedillon\Documents\lab1\lab1_platform\hw\sdt\system-top.dts
+14:24:34 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && lopper --enhanced --werror -f -O C:\Users\nedillon\Documents\lab1\.rigel_lopper -i C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Lib\site-packages\lopper\lops\lop-cpu-oslist.dts C:\Users\nedillon\Documents\lab1\lab1_platform\hw\sdt\system-top.dts && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:24:34 INFO  : CPU List generated successfully
+14:24:34 INFO  : SDT generated successfully.
+14:24:34 INFO  : created .gitignore file for the project C:\Users\nedillon\Documents\lab1\lab1_platform
+14:24:34 INFO  : ZYNQ: Using the QEMU args from install at  : C:\Xilinx\Vitis\2024.2\data\emulation\platforms\zynq\sw\a9_linux\qemu\qemu_args.txt
+14:24:34 INFO  : ZYNQ: Using the QEMU args from install at  : C:\Xilinx\Vitis\2024.2\data\emulation\platforms\zynq\sw\a9_standalone\qemu\qemu_args.txt
+14:24:34 INFO  : ZYNQ: Using the QEMU args from install at  : C:\Xilinx\Vitis\2024.2\data\emulation\platforms\zynq\sw\a9_standalone\qemu\qemu_args.txt
+14:24:34 INFO  : lopper command to generate BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//create_bsp.py -w C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp -p ps7_cortexa9_0 -o standalone -s C:\Users\nedillon\Documents\lab1\lab1_platform\hw\sdt\system-top.dts -t zynq_fsbl -r C:\Users\nedillon\Documents\lab1\_ide\.wsdata\.repo.yaml
+14:24:34 INFO  : lopper command to generate BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//create_bsp.py -w C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp -p ps7_cortexa9_0 -o freertos -s C:\Users\nedillon\Documents\lab1\lab1_platform\hw\sdt\system-top.dts -t empty_application -r C:\Users\nedillon\Documents\lab1\_ide\.wsdata\.repo.yaml
+14:24:34 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\create_bsp.py -w C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp -p ps7_cortexa9_0 -o standalone -s C:\Users\nedillon\Documents\lab1\lab1_platform\hw\sdt\system-top.dts -t zynq_fsbl -r C:\Users\nedillon\Documents\lab1\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:24:34 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\create_bsp.py -w C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp -p ps7_cortexa9_0 -o freertos -s C:\Users\nedillon\Documents\lab1\lab1_platform\hw\sdt\system-top.dts -t empty_application -r C:\Users\nedillon\Documents\lab1\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:24:44 INFO  : Successfully created Domain at C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+14:24:44 INFO  : Successfully Generated Domain C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+14:24:44 INFO  : lopper command to create baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//create_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -t zynq_fsbl -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp -n fsbl -r C:\Users\nedillon\Documents\lab1\_ide\.wsdata\.repo.yaml
+14:24:44 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\validate_bsp.py -t zynq_fsbl -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp -r C:\Users\nedillon\Documents\lab1\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:24:44 INFO  : System is unknown to cmake, create:
+14:24:44 INFO  : Platform/FreeRTOS to use this system, please post your config file on discourse.cmake.org so it can be added to cmake
+14:24:44 INFO  : System is unknown to cmake, create:
+14:24:44 INFO  : Platform/FreeRTOS to use this system, please post your config file on discourse.cmake.org so it can be added to cmake
+14:24:44 INFO  : System is unknown to cmake, create:
+14:24:44 INFO  : Platform/FreeRTOS to use this system, please post your config file on discourse.cmake.org so it can be added to cmake
+14:24:44 INFO  : Successfully created Domain at C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+14:24:44 INFO  : Successfully Generated Domain C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+14:24:44 INFO  : Domain freertos_ps7_cortexa9_0 added successfully.
+14:24:45 INFO  : Successfully validated template zynq_fsbl
+14:24:45 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\create_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -t zynq_fsbl -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp -n fsbl -r C:\Users\nedillon\Documents\lab1\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:24:47 INFO  : Successfully Created Application sources at C:/Users/nedillon/Documents/lab1/lab1_platform/zynq_fsbl
+14:24:47 INFO  : Successfully created Application C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl
+14:24:47 INFO  : Platform FSBL Boot domain added successfully.
+14:24:47 INFO  : Platform creation finished successfully.
+14:24:47 INFO  : Platform Quick Build initiated.
+14:24:47 INFO  : Generating Export directory
+14:24:47 INFO  : Generated platform metadata for creating application(s) based on platform lab1_platform.
+14:24:58 INFO  : BSP build will be initiated for Domain zynq_fsbl
+14:24:58 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+14:24:58 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+14:24:58 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:24:58 INFO  : BSP build will be initiated for Domain freertos_ps7_cortexa9_0
+14:24:58 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+14:24:58 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+14:24:58 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:24:58 INFO  : Domain reconfigured successfully
+14:24:58 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+14:24:58 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+14:24:58 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:24:58 INFO  : Domain reconfigured successfully
+14:24:58 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+14:24:58 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+14:24:58 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:25:03 INFO  : Domain build successfully
+14:25:03 INFO  : Domain build successfully
+14:25:03 INFO  : Generating Boot ELFs
+14:25:03 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build
+14:25:03 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:25:04 INFO  : Successfully retargeted Application C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl
+14:25:04 INFO  : lopper command to build baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build
+14:25:04 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:25:05 INFO  : Successfully building the baremetal applicationC:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build
+14:25:05 INFO  : Generating Export directory
+14:25:06 INFO  : Platform Build Finished successfully.
+14:25:59 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\validate_bsp.py -t empty_application -d C:\Users\nedillon\Documents\lab1\lab1_platform\export\lab1_platform\sw\freertos_ps7_cortexa9_0 -r C:\Users\nedillon\Documents\lab1\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:26:00 INFO  : Successfully validated template empty_application
+14:26:54 INFO  : lopper command to create baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//create_app.py -s C:\Users\nedillon\Documents\lab1\lab1_part1\src -t empty_application -d C:\Users\nedillon\Documents\lab1\lab1_platform\export\lab1_platform\sw\freertos_ps7_cortexa9_0 -n lab1_part1 -r C:\Users\nedillon\Documents\lab1\_ide\.wsdata\.repo.yaml
+14:26:54 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\validate_bsp.py -t empty_application -d C:\Users\nedillon\Documents\lab1\lab1_platform\export\lab1_platform\sw\freertos_ps7_cortexa9_0 -r C:\Users\nedillon\Documents\lab1\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:26:55 INFO  : Successfully validated template empty_application
+14:26:55 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\create_app.py -s C:\Users\nedillon\Documents\lab1\lab1_part1\src -t empty_application -d C:\Users\nedillon\Documents\lab1\lab1_platform\export\lab1_platform\sw\freertos_ps7_cortexa9_0 -n lab1_part1 -r C:\Users\nedillon\Documents\lab1\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:26:57 INFO  : System is unknown to cmake, create:
+14:26:57 INFO  : Platform/FreeRTOS to use this system, please post your config file on discourse.cmake.org so it can be added to cmake
+14:26:57 INFO  : System is unknown to cmake, create:
+14:26:57 INFO  : Platform/FreeRTOS to use this system, please post your config file on discourse.cmake.org so it can be added to cmake
+14:26:57 INFO  : System is unknown to cmake, create:
+14:26:57 INFO  : Platform/FreeRTOS to use this system, please post your config file on discourse.cmake.org so it can be added to cmake
+14:26:57 INFO  : Successfully Created Application sources at C:/Users/nedillon/Documents/lab1/lab1_part1/src
+14:26:57 INFO  : Successfully created Application C:\Users\nedillon\Documents\lab1\lab1_part1\src
+14:26:57 INFO  : The hardware specification used by project 'C:\Users\nedillon\Documents\lab1\lab1_part1' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+14:26:57 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\nedillon\Documents\lab1\lab1_part1\_ide\bitstream' in project 'C:\Users\nedillon\Documents\lab1\lab1_part1'.
+14:26:57 INFO  : The updated ps init files are copied from platform to folder 'C:\Users\nedillon\Documents\lab1\lab1_part1\_ide\psinit' in project 'C:\Users\nedillon\Documents\lab1\lab1_part1'.
+14:26:57 INFO  : created .gitignore file for the project C:\Users\nedillon\Documents\lab1\lab1_part1
+14:27:07 INFO  : BSP build will be initiated for Domain zynq_fsbl
+14:27:07 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+14:27:07 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+14:27:07 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:27:07 INFO  : BSP build will be initiated for Domain freertos_ps7_cortexa9_0
+14:27:07 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+14:27:07 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+14:27:07 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:27:07 INFO  : Domain reconfigured successfully
+14:27:07 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+14:27:07 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+14:27:07 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:27:07 INFO  : Domain reconfigured successfully
+14:27:07 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+14:27:07 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+14:27:07 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:27:08 INFO  : Domain build successfully
+14:27:08 INFO  : Domain build successfully
+14:27:08 INFO  : Generating Boot ELFs
+14:27:08 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build
+14:27:08 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:27:08 INFO  : Successfully retargeted Application C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl
+14:27:08 INFO  : lopper command to build baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build
+14:27:08 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:27:09 INFO  : Successfully building the baremetal applicationC:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build
+14:27:09 INFO  : Generating Export directory
+14:27:09 INFO  : Platform Build Finished successfully.
+14:27:09 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s c:\Users\nedillon\Documents\lab1\lab1_part1\src -d C:\Users\nedillon\Documents\lab1\lab1_platform\export\lab1_platform\sw\freertos_ps7_cortexa9_0 -b c:\Users\nedillon\Documents\lab1\lab1_part1\build
+14:27:09 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s c:\Users\nedillon\Documents\lab1\lab1_part1\src -d C:\Users\nedillon\Documents\lab1\lab1_platform\export\lab1_platform\sw\freertos_ps7_cortexa9_0 -b c:\Users\nedillon\Documents\lab1\lab1_part1\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:27:09 INFO  : Successfully retargeted Application c:\Users\nedillon\Documents\lab1\lab1_part1\src
+14:27:09 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s c:\Users\nedillon\Documents\lab1\lab1_part1\src -b c:\Users\nedillon\Documents\lab1\lab1_part1\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:28:14 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && lopper -O  . C:\Users\nedillon\Documents\lab1\lab1_platform\hw\sdt\system-top.dts -- baremetal_getsupported_comp_xlnx ps7_cortexa9_0 C:\Users\nedillon\Documents\lab1\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:28:14 INFO  : Supported Library List generated.
+14:28:43 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+14:28:43 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+14:28:43 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:28:43 INFO  : Domain reconfigured successfully
+14:28:43 INFO  : Updating the given parameters of library in BSP C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+14:28:43 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\config_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp -st freertos freertos_tick_rate:1000 -r C:\Users\nedillon\Documents\lab1\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:28:44 INFO  : System is unknown to cmake, create:
+14:28:44 INFO  : Platform/FreeRTOS to use this system, please post your config file on discourse.cmake.org so it can be added to cmake
+14:28:44 INFO  : Your CMakeCache.txt file was copied to CopyOfCMakeCache.txt. Please post that file on discourse.cmake.org.
+14:28:44 INFO  : -- Configuring done
+14:28:44 INFO  : -- Generating done
+14:28:44 INFO  : CMake Warning:
+14:28:44 INFO  :   Manually-specified variables were not used by the project:
+14:28:44 INFO  : 
+14:28:44 INFO  :     CMAKE_TOOLCHAIN_FILE
+14:28:44 INFO  : 
+14:28:44 INFO  : 
+14:28:44 INFO  : -- Build files have been written to: C:/Users/nedillon/Documents/lab1/lab1_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp
+14:28:44 INFO  : Updated the library parameters successfully
+14:28:44 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && lopper -O  . C:\Users\nedillon\Documents\lab1\lab1_platform\hw\sdt\system-top.dts -- baremetal_getsupported_comp_xlnx ps7_cortexa9_0 C:\Users\nedillon\Documents\lab1\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:28:44 INFO  : Supported Library List generated.
+14:29:00 INFO  : Regenerating BSP 
+14:29:00 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+14:29:00 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+14:29:00 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:29:00 INFO  : Domain reconfigured successfully
+14:29:00 INFO  : lopper command to regenerate BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//regen_bsp.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\hw\sdt\system-top.dts -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp -r C:\Users\nedillon\Documents\lab1\_ide\.wsdata\.repo.yaml
+14:29:00 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\regen_bsp.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\hw\sdt\system-top.dts -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp -r C:\Users\nedillon\Documents\lab1\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:29:07 INFO  : System is unknown to cmake, create:
+14:29:07 INFO  : Platform/FreeRTOS to use this system, please post your config file on discourse.cmake.org so it can be added to cmake
+14:29:07 INFO  : System is unknown to cmake, create:
+14:29:07 INFO  : Platform/FreeRTOS to use this system, please post your config file on discourse.cmake.org so it can be added to cmake
+14:29:07 INFO  : System is unknown to cmake, create:
+14:29:07 INFO  : Platform/FreeRTOS to use this system, please post your config file on discourse.cmake.org so it can be added to cmake
+14:29:07 INFO  : System is unknown to cmake, create:
+14:29:07 INFO  : Platform/FreeRTOS to use this system, please post your config file on discourse.cmake.org so it can be added to cmake
+14:29:07 INFO  : Your CMakeCache.txt file was copied to CopyOfCMakeCache.txt. Please post that file on discourse.cmake.org.
+14:29:07 INFO  : -- Configuring done
+14:29:07 INFO  : -- Generating done
+14:29:07 INFO  : CMake Warning:
+14:29:07 INFO  :   Manually-specified variables were not used by the project:
+14:29:07 INFO  : 
+14:29:07 INFO  :     CMAKE_TOOLCHAIN_FILE
+14:29:07 INFO  : 
+14:29:07 INFO  : 
+14:29:07 INFO  : -- Build files have been written to: C:/Users/nedillon/Documents/lab1/lab1_platform/ps7_cortexa9_0/freertos_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp
+14:29:07 INFO  : Successfully created Domain at C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+14:29:07 INFO  : BSP regenerated successfully
+14:29:07 INFO  : BSP regeneration finished successfully
+14:29:07 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && lopper -O  . C:\Users\nedillon\Documents\lab1\lab1_platform\hw\sdt\system-top.dts -- baremetal_getsupported_comp_xlnx ps7_cortexa9_0 C:\Users\nedillon\Documents\lab1\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:29:08 INFO  : Supported Library List generated.
+15:07:32 INFO  : BSP build will be initiated for Domain zynq_fsbl
+15:07:32 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+15:07:32 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+15:07:32 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:07:32 INFO  : BSP build will be initiated for Domain freertos_ps7_cortexa9_0
+15:07:32 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+15:07:32 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+15:07:32 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:07:33 INFO  : Domain reconfigured successfully
+15:07:33 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+15:07:33 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+15:07:33 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:07:33 INFO  : Domain reconfigured successfully
+15:07:33 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+15:07:33 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+15:07:33 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:07:34 INFO  : Domain build successfully
+15:07:37 INFO  : Domain build successfully
+15:07:37 INFO  : Generating Boot ELFs
+15:07:37 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build
+15:07:37 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:07:37 INFO  : Successfully retargeted Application C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl
+15:07:37 INFO  : lopper command to build baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build
+15:07:37 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:07:39 INFO  : Successfully building the baremetal applicationC:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build
+15:07:39 INFO  : Generating Export directory
+15:07:39 INFO  : Platform Build Finished successfully.
+15:07:39 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s c:\Users\nedillon\Documents\lab1\lab1_part1\src -d C:\Users\nedillon\Documents\lab1\lab1_platform\export\lab1_platform\sw\freertos_ps7_cortexa9_0 -b c:\Users\nedillon\Documents\lab1\lab1_part1\build
+15:07:39 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s c:\Users\nedillon\Documents\lab1\lab1_part1\src -d C:\Users\nedillon\Documents\lab1\lab1_platform\export\lab1_platform\sw\freertos_ps7_cortexa9_0 -b c:\Users\nedillon\Documents\lab1\lab1_part1\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:07:39 INFO  : Successfully retargeted Application c:\Users\nedillon\Documents\lab1\lab1_part1\src
+15:07:39 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s c:\Users\nedillon\Documents\lab1\lab1_part1\src -b c:\Users\nedillon\Documents\lab1\lab1_part1\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:07:46 INFO  : XSDB server has started successfully from frontend.
+15:07:46 INFO  : It has taken  3secs.
+15:07:47 INFO  : Connection to XSDB Server established.
+15:07:47 INFO  : It has taken  1secs.
+15:07:47 INFO  : Done
+15:07:49 INFO  : connect -url tcp:127.0.0.1:3121
+15:07:53 INFO  : bpremove -all
+15:07:53 INFO  : Context for 'APU' is selected.
+15:07:53 INFO  : System reset is completed.
+15:07:56 INFO  : 'after 3000' command is executed.
+15:07:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A77ACBA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A77ACBA-13722093-0"}' command is executed.
+15:07:58 INFO  : Device configured successfully with "C:/Users/nedillon/Documents/lab1/lab1_part1/_ide/bitstream/lab1_hw_wrapper.bit"
+15:07:58 INFO  : targets -set -nocase -filter {name =~"APU*"}
+15:07:58 INFO  : loadhw -hw C:/Users/nedillon/Documents/lab1/lab1_platform/export/lab1_platform/hw/lab1_hw_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+15:07:58 INFO  : configparams force-mem-access 1
+15:07:58 INFO  : targets -set -nocase -filter {name =~"APU*"}
+15:07:58 INFO  : source C:/Users/nedillon/Documents/lab1/lab1_part1/_ide/psinit/ps7_init.tcl
+15:07:58 INFO  : ps7_init
+15:07:58 INFO  : ps7_post_config
+15:07:58 INFO  : targets -set -nocase -filter {name =~ "*A9*#0"}
+15:07:58 INFO  : rst -processor
+15:07:58 INFO  : dow C:/Users/nedillon/Documents/lab1/lab1_part1/build/lab1_part1.elf
+15:07:58 INFO  : con
+15:07:58 INFO  : configparams force-mem-access 0
+15:07:59 INFO  : Testing the connection for 127.0.0.1
+15:09:26 INFO  : BSP build will be initiated for Domain zynq_fsbl
+15:09:26 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+15:09:26 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+15:09:26 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:09:26 INFO  : BSP build will be initiated for Domain freertos_ps7_cortexa9_0
+15:09:26 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+15:09:26 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+15:09:26 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:09:26 INFO  : Domain reconfigured successfully
+15:09:26 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+15:09:26 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+15:09:26 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:09:26 INFO  : Domain reconfigured successfully
+15:09:26 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+15:09:26 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+15:09:26 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:09:27 INFO  : Domain build successfully
+15:09:27 INFO  : Domain build successfully
+15:09:27 INFO  : Generating Boot ELFs
+15:09:27 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build
+15:09:27 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:09:27 INFO  : Successfully retargeted Application C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl
+15:09:27 INFO  : lopper command to build baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build
+15:09:27 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:09:28 INFO  : Successfully building the baremetal applicationC:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build
+15:09:28 INFO  : Generating Export directory
+15:09:28 INFO  : Platform Build Finished successfully.
+15:09:28 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s c:\Users\nedillon\Documents\lab1\lab1_part1\src -d C:\Users\nedillon\Documents\lab1\lab1_platform\export\lab1_platform\sw\freertos_ps7_cortexa9_0 -b c:\Users\nedillon\Documents\lab1\lab1_part1\build
+15:09:28 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s c:\Users\nedillon\Documents\lab1\lab1_part1\src -d C:\Users\nedillon\Documents\lab1\lab1_platform\export\lab1_platform\sw\freertos_ps7_cortexa9_0 -b c:\Users\nedillon\Documents\lab1\lab1_part1\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:09:28 INFO  : Successfully retargeted Application c:\Users\nedillon\Documents\lab1\lab1_part1\src
+15:09:28 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s c:\Users\nedillon\Documents\lab1\lab1_part1\src -b c:\Users\nedillon\Documents\lab1\lab1_part1\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:09:36 INFO  : connect -url tcp:127.0.0.1:3121
+15:09:36 INFO  : bpremove -all
+15:09:36 INFO  : Context for 'APU' is selected.
+15:09:36 INFO  : System reset is completed.
+15:09:39 INFO  : 'after 3000' command is executed.
+15:09:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A77ACBA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A77ACBA-13722093-0"}' command is executed.
+15:09:40 INFO  : Device configured successfully with "C:/Users/nedillon/Documents/lab1/lab1_part1/_ide/bitstream/lab1_hw_wrapper.bit"
+15:09:40 INFO  : targets -set -nocase -filter {name =~"APU*"}
+15:09:40 INFO  : loadhw -hw C:/Users/nedillon/Documents/lab1/lab1_platform/export/lab1_platform/hw/lab1_hw_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+15:09:40 INFO  : configparams force-mem-access 1
+15:09:40 INFO  : targets -set -nocase -filter {name =~"APU*"}
+15:09:40 INFO  : source C:/Users/nedillon/Documents/lab1/lab1_part1/_ide/psinit/ps7_init.tcl
+15:09:41 INFO  : ps7_init
+15:09:41 INFO  : ps7_post_config
+15:09:41 INFO  : targets -set -nocase -filter {name =~ "*A9*#0"}
+15:09:41 INFO  : rst -processor
+15:09:41 INFO  : dow C:/Users/nedillon/Documents/lab1/lab1_part1/build/lab1_part1.elf
+15:09:41 INFO  : con
+15:09:41 INFO  : configparams force-mem-access 0
+15:09:42 INFO  : Testing the connection for 127.0.0.1
+15:09:47 INFO  : disconnect
+15:09:55 INFO  : connect -url tcp:127.0.0.1:3121
+15:09:55 INFO  : bpremove -all
+15:09:56 INFO  : Context for 'APU' is selected.
+15:09:56 INFO  : System reset is completed.
+15:09:59 INFO  : 'after 3000' command is executed.
+15:09:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A77ACBA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A77ACBA-13722093-0"}' command is executed.
+15:10:01 INFO  : Device configured successfully with "C:/Users/nedillon/Documents/lab1/lab1_part1/_ide/bitstream/lab1_hw_wrapper.bit"
+15:10:01 INFO  : targets -set -nocase -filter {name =~"APU*"}
+15:10:02 INFO  : loadhw -hw C:/Users/nedillon/Documents/lab1/lab1_platform/export/lab1_platform/hw/lab1_hw_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+15:10:02 INFO  : configparams force-mem-access 1
+15:10:02 INFO  : targets -set -nocase -filter {name =~"APU*"}
+15:10:02 INFO  : source C:/Users/nedillon/Documents/lab1/lab1_part1/_ide/psinit/ps7_init.tcl
+15:10:02 INFO  : ps7_init
+15:10:02 INFO  : ps7_post_config
+15:10:02 INFO  : targets -set -nocase -filter {name =~ "*A9*#0"}
+15:10:02 INFO  : rst -processor
+15:10:02 INFO  : dow C:/Users/nedillon/Documents/lab1/lab1_part1/build/lab1_part1.elf
+15:10:02 INFO  : bpadd main
+15:10:02 INFO  : con
+15:10:02 INFO  : configparams force-mem-access 0
+15:10:03 INFO  : Testing the connection for 127.0.0.1
+15:14:23 INFO  : disconnect
+15:14:45 INFO  : BSP build will be initiated for Domain zynq_fsbl
+15:14:45 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+15:14:45 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+15:14:45 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:14:45 INFO  : BSP build will be initiated for Domain freertos_ps7_cortexa9_0
+15:14:45 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+15:14:45 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+15:14:45 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:14:45 INFO  : Domain reconfigured successfully
+15:14:45 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+15:14:45 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+15:14:45 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:14:45 INFO  : Domain reconfigured successfully
+15:14:45 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+15:14:45 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+15:14:45 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:14:45 INFO  : Domain build successfully
+15:14:45 INFO  : Domain build successfully
+15:14:45 INFO  : Generating Boot ELFs
+15:14:45 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build
+15:14:45 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:14:46 INFO  : Successfully retargeted Application C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl
+15:14:46 INFO  : lopper command to build baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build
+15:14:46 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:14:47 INFO  : Successfully building the baremetal applicationC:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build
+15:14:47 INFO  : Generating Export directory
+15:14:47 INFO  : Platform Build Finished successfully.
+15:14:47 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s c:\Users\nedillon\Documents\lab1\lab1_part1\src -d C:\Users\nedillon\Documents\lab1\lab1_platform\export\lab1_platform\sw\freertos_ps7_cortexa9_0 -b c:\Users\nedillon\Documents\lab1\lab1_part1\build
+15:14:47 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s c:\Users\nedillon\Documents\lab1\lab1_part1\src -d C:\Users\nedillon\Documents\lab1\lab1_platform\export\lab1_platform\sw\freertos_ps7_cortexa9_0 -b c:\Users\nedillon\Documents\lab1\lab1_part1\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:14:47 INFO  : Successfully retargeted Application c:\Users\nedillon\Documents\lab1\lab1_part1\src
+15:14:47 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s c:\Users\nedillon\Documents\lab1\lab1_part1\src -b c:\Users\nedillon\Documents\lab1\lab1_part1\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:14:55 INFO  : connect -url tcp:127.0.0.1:3121
+15:14:55 INFO  : bpremove -all
+15:14:55 INFO  : Context for 'APU' is selected.
+15:14:55 INFO  : System reset is completed.
+15:14:58 INFO  : 'after 3000' command is executed.
+15:14:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A77ACBA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A77ACBA-13722093-0"}' command is executed.
+15:15:00 INFO  : Device configured successfully with "C:/Users/nedillon/Documents/lab1/lab1_part1/_ide/bitstream/lab1_hw_wrapper.bit"
+15:15:00 INFO  : targets -set -nocase -filter {name =~"APU*"}
+15:15:01 INFO  : loadhw -hw C:/Users/nedillon/Documents/lab1/lab1_platform/export/lab1_platform/hw/lab1_hw_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+15:15:01 INFO  : configparams force-mem-access 1
+15:15:01 INFO  : targets -set -nocase -filter {name =~"APU*"}
+15:15:01 INFO  : source C:/Users/nedillon/Documents/lab1/lab1_part1/_ide/psinit/ps7_init.tcl
+15:15:01 INFO  : ps7_init
+15:15:01 INFO  : ps7_post_config
+15:15:01 INFO  : targets -set -nocase -filter {name =~ "*A9*#0"}
+15:15:01 INFO  : rst -processor
+15:15:01 INFO  : dow C:/Users/nedillon/Documents/lab1/lab1_part1/build/lab1_part1.elf
+15:15:01 INFO  : con
+15:15:01 INFO  : configparams force-mem-access 0
+15:15:02 INFO  : Testing the connection for 127.0.0.1
+15:16:09 INFO  : disconnect
+15:16:12 INFO  : BSP build will be initiated for Domain zynq_fsbl
+15:16:12 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+15:16:12 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+15:16:12 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:16:12 INFO  : BSP build will be initiated for Domain freertos_ps7_cortexa9_0
+15:16:12 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+15:16:12 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+15:16:12 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:16:12 INFO  : Domain reconfigured successfully
+15:16:12 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+15:16:12 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+15:16:12 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:16:12 INFO  : Domain reconfigured successfully
+15:16:12 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+15:16:12 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+15:16:12 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:16:12 INFO  : Domain build successfully
+15:16:12 INFO  : Domain build successfully
+15:16:12 INFO  : Generating Boot ELFs
+15:16:12 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build
+15:16:12 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:16:12 INFO  : Successfully retargeted Application C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl
+15:16:12 INFO  : lopper command to build baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build
+15:16:12 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:16:13 INFO  : Successfully building the baremetal applicationC:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build
+15:16:13 INFO  : Generating Export directory
+15:16:13 INFO  : Platform Build Finished successfully.
+15:16:13 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s c:\Users\nedillon\Documents\lab1\lab1_part1\src -d C:\Users\nedillon\Documents\lab1\lab1_platform\export\lab1_platform\sw\freertos_ps7_cortexa9_0 -b c:\Users\nedillon\Documents\lab1\lab1_part1\build
+15:16:13 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s c:\Users\nedillon\Documents\lab1\lab1_part1\src -d C:\Users\nedillon\Documents\lab1\lab1_platform\export\lab1_platform\sw\freertos_ps7_cortexa9_0 -b c:\Users\nedillon\Documents\lab1\lab1_part1\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:16:14 INFO  : Successfully retargeted Application c:\Users\nedillon\Documents\lab1\lab1_part1\src
+15:16:14 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s c:\Users\nedillon\Documents\lab1\lab1_part1\src -b c:\Users\nedillon\Documents\lab1\lab1_part1\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:16:19 INFO  : connect -url tcp:127.0.0.1:3121
+15:16:19 INFO  : bpremove -all
+15:16:20 INFO  : Context for 'APU' is selected.
+15:16:20 INFO  : System reset is completed.
+15:16:23 INFO  : 'after 3000' command is executed.
+15:16:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A77ACBA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A77ACBA-13722093-0"}' command is executed.
+15:16:24 INFO  : Device configured successfully with "C:/Users/nedillon/Documents/lab1/lab1_part1/_ide/bitstream/lab1_hw_wrapper.bit"
+15:16:24 INFO  : targets -set -nocase -filter {name =~"APU*"}
+15:16:25 INFO  : loadhw -hw C:/Users/nedillon/Documents/lab1/lab1_platform/export/lab1_platform/hw/lab1_hw_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+15:16:25 INFO  : configparams force-mem-access 1
+15:16:25 INFO  : targets -set -nocase -filter {name =~"APU*"}
+15:16:25 INFO  : source C:/Users/nedillon/Documents/lab1/lab1_part1/_ide/psinit/ps7_init.tcl
+15:16:25 INFO  : ps7_init
+15:16:25 INFO  : ps7_post_config
+15:16:25 INFO  : targets -set -nocase -filter {name =~ "*A9*#0"}
+15:16:26 INFO  : rst -processor
+15:16:26 INFO  : dow C:/Users/nedillon/Documents/lab1/lab1_part1/build/lab1_part1.elf
+15:16:26 INFO  : bpadd main
+15:16:26 INFO  : con
+15:16:26 INFO  : configparams force-mem-access 0
+15:16:27 INFO  : Testing the connection for 127.0.0.1
+15:17:03 INFO  : disconnect
+15:17:12 INFO  : BSP build will be initiated for Domain zynq_fsbl
+15:17:12 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+15:17:12 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+15:17:12 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:17:12 INFO  : BSP build will be initiated for Domain freertos_ps7_cortexa9_0
+15:17:12 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+15:17:12 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+15:17:12 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:17:12 INFO  : Domain reconfigured successfully
+15:17:12 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+15:17:12 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+15:17:12 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:17:12 INFO  : Domain reconfigured successfully
+15:17:12 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+15:17:12 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+15:17:12 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:17:13 INFO  : Domain build successfully
+15:17:13 INFO  : Domain build successfully
+15:17:13 INFO  : Generating Boot ELFs
+15:17:13 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build
+15:17:13 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:17:13 INFO  : Successfully retargeted Application C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl
+15:17:13 INFO  : lopper command to build baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build
+15:17:13 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:17:14 INFO  : Successfully building the baremetal applicationC:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build
+15:17:14 INFO  : Generating Export directory
+15:17:14 INFO  : Platform Build Finished successfully.
+15:17:14 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s c:\Users\nedillon\Documents\lab1\lab1_part1\src -d C:\Users\nedillon\Documents\lab1\lab1_platform\export\lab1_platform\sw\freertos_ps7_cortexa9_0 -b c:\Users\nedillon\Documents\lab1\lab1_part1\build
+15:17:14 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s c:\Users\nedillon\Documents\lab1\lab1_part1\src -d C:\Users\nedillon\Documents\lab1\lab1_platform\export\lab1_platform\sw\freertos_ps7_cortexa9_0 -b c:\Users\nedillon\Documents\lab1\lab1_part1\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:17:14 INFO  : Successfully retargeted Application c:\Users\nedillon\Documents\lab1\lab1_part1\src
+15:17:14 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s c:\Users\nedillon\Documents\lab1\lab1_part1\src -b c:\Users\nedillon\Documents\lab1\lab1_part1\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:17:21 INFO  : connect -url tcp:127.0.0.1:3121
+15:17:21 INFO  : bpremove -all
+15:17:21 INFO  : Context for 'APU' is selected.
+15:17:21 INFO  : System reset is completed.
+15:17:24 INFO  : 'after 3000' command is executed.
+15:17:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A77ACBA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A77ACBA-13722093-0"}' command is executed.
+15:17:25 INFO  : Device configured successfully with "C:/Users/nedillon/Documents/lab1/lab1_part1/_ide/bitstream/lab1_hw_wrapper.bit"
+15:17:25 INFO  : targets -set -nocase -filter {name =~"APU*"}
+15:17:26 INFO  : loadhw -hw C:/Users/nedillon/Documents/lab1/lab1_platform/export/lab1_platform/hw/lab1_hw_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+15:17:26 INFO  : configparams force-mem-access 1
+15:17:26 INFO  : targets -set -nocase -filter {name =~"APU*"}
+15:17:26 INFO  : source C:/Users/nedillon/Documents/lab1/lab1_part1/_ide/psinit/ps7_init.tcl
+15:17:27 INFO  : ps7_init
+15:17:27 INFO  : ps7_post_config
+15:17:27 INFO  : targets -set -nocase -filter {name =~ "*A9*#0"}
+15:17:27 INFO  : rst -processor
+15:17:27 INFO  : dow C:/Users/nedillon/Documents/lab1/lab1_part1/build/lab1_part1.elf
+15:17:27 INFO  : con
+15:17:27 INFO  : configparams force-mem-access 0
+15:17:28 INFO  : Testing the connection for 127.0.0.1
+15:18:10 INFO  : disconnect
+15:23:24 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\validate_bsp.py -t empty_application -d C:\Users\nedillon\Documents\lab1\lab1_platform\export\lab1_platform\sw\freertos_ps7_cortexa9_0 -r C:\Users\nedillon\Documents\lab1\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:23:26 INFO  : Successfully validated template empty_application
+15:24:32 INFO  : lopper command to create baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//create_app.py -s C:\Users\nedillon\Documents\lab1\lab1_part2\src -t empty_application -d C:\Users\nedillon\Documents\lab1\lab1_platform\export\lab1_platform\sw\freertos_ps7_cortexa9_0 -n lab1_part2 -r C:\Users\nedillon\Documents\lab1\_ide\.wsdata\.repo.yaml
+15:24:32 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\validate_bsp.py -t empty_application -d C:\Users\nedillon\Documents\lab1\lab1_platform\export\lab1_platform\sw\freertos_ps7_cortexa9_0 -r C:\Users\nedillon\Documents\lab1\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:24:33 INFO  : Successfully validated template empty_application
+15:24:33 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\create_app.py -s C:\Users\nedillon\Documents\lab1\lab1_part2\src -t empty_application -d C:\Users\nedillon\Documents\lab1\lab1_platform\export\lab1_platform\sw\freertos_ps7_cortexa9_0 -n lab1_part2 -r C:\Users\nedillon\Documents\lab1\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:24:35 INFO  : System is unknown to cmake, create:
+15:24:35 INFO  : Platform/FreeRTOS to use this system, please post your config file on discourse.cmake.org so it can be added to cmake
+15:24:35 INFO  : System is unknown to cmake, create:
+15:24:35 INFO  : Platform/FreeRTOS to use this system, please post your config file on discourse.cmake.org so it can be added to cmake
+15:24:35 INFO  : System is unknown to cmake, create:
+15:24:35 INFO  : Platform/FreeRTOS to use this system, please post your config file on discourse.cmake.org so it can be added to cmake
+15:24:35 INFO  : Successfully Created Application sources at C:/Users/nedillon/Documents/lab1/lab1_part2/src
+15:24:35 INFO  : Successfully created Application C:\Users\nedillon\Documents\lab1\lab1_part2\src
+15:24:35 INFO  : The hardware specification used by project 'C:\Users\nedillon\Documents\lab1\lab1_part2' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+15:24:35 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\nedillon\Documents\lab1\lab1_part2\_ide\bitstream' in project 'C:\Users\nedillon\Documents\lab1\lab1_part2'.
+15:24:35 INFO  : The updated ps init files are copied from platform to folder 'C:\Users\nedillon\Documents\lab1\lab1_part2\_ide\psinit' in project 'C:\Users\nedillon\Documents\lab1\lab1_part2'.
+15:24:35 INFO  : created .gitignore file for the project C:\Users\nedillon\Documents\lab1\lab1_part2
+15:26:30 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\validate_bsp.py -t empty_application -d C:\Users\nedillon\Documents\lab1\lab1_platform\export\lab1_platform\sw\freertos_ps7_cortexa9_0 -r C:\Users\nedillon\Documents\lab1\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:26:31 INFO  : Successfully validated template empty_application
+15:27:31 INFO  : lopper command to create baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//create_app.py -s C:\Users\nedillon\Documents\lab1\lab1_part2\src -t empty_application -d C:\Users\nedillon\Documents\lab1\lab1_platform\export\lab1_platform\sw\freertos_ps7_cortexa9_0 -n lab1_part2 -r C:\Users\nedillon\Documents\lab1\_ide\.wsdata\.repo.yaml
+15:27:31 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\validate_bsp.py -t empty_application -d C:\Users\nedillon\Documents\lab1\lab1_platform\export\lab1_platform\sw\freertos_ps7_cortexa9_0 -r C:\Users\nedillon\Documents\lab1\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:27:32 INFO  : Successfully validated template empty_application
+15:27:32 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\create_app.py -s C:\Users\nedillon\Documents\lab1\lab1_part2\src -t empty_application -d C:\Users\nedillon\Documents\lab1\lab1_platform\export\lab1_platform\sw\freertos_ps7_cortexa9_0 -n lab1_part2 -r C:\Users\nedillon\Documents\lab1\_ide\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:27:34 INFO  : System is unknown to cmake, create:
+15:27:34 INFO  : Platform/FreeRTOS to use this system, please post your config file on discourse.cmake.org so it can be added to cmake
+15:27:34 INFO  : System is unknown to cmake, create:
+15:27:34 INFO  : Platform/FreeRTOS to use this system, please post your config file on discourse.cmake.org so it can be added to cmake
+15:27:34 INFO  : System is unknown to cmake, create:
+15:27:34 INFO  : Platform/FreeRTOS to use this system, please post your config file on discourse.cmake.org so it can be added to cmake
+15:27:34 INFO  : Successfully Created Application sources at C:/Users/nedillon/Documents/lab1/lab1_part2/src
+15:27:34 INFO  : Successfully created Application C:\Users\nedillon\Documents\lab1\lab1_part2\src
+15:27:34 INFO  : The hardware specification used by project 'C:\Users\nedillon\Documents\lab1\lab1_part2' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+15:27:34 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\nedillon\Documents\lab1\lab1_part2\_ide\bitstream' in project 'C:\Users\nedillon\Documents\lab1\lab1_part2'.
+15:27:34 INFO  : The updated ps init files are copied from platform to folder 'C:\Users\nedillon\Documents\lab1\lab1_part2\_ide\psinit' in project 'C:\Users\nedillon\Documents\lab1\lab1_part2'.
+15:27:34 INFO  : created .gitignore file for the project C:\Users\nedillon\Documents\lab1\lab1_part2
+15:27:49 INFO  : BSP build will be initiated for Domain zynq_fsbl
+15:27:49 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+15:27:49 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+15:27:49 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:27:49 INFO  : BSP build will be initiated for Domain freertos_ps7_cortexa9_0
+15:27:49 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+15:27:49 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+15:27:49 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:27:50 INFO  : Domain reconfigured successfully
+15:27:50 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+15:27:50 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+15:27:50 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:27:50 INFO  : Domain reconfigured successfully
+15:27:50 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+15:27:50 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+15:27:50 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:27:50 INFO  : Domain build successfully
+15:27:50 INFO  : Domain build successfully
+15:27:50 INFO  : Generating Boot ELFs
+15:27:50 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build
+15:27:50 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:27:50 INFO  : Successfully retargeted Application C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl
+15:27:50 INFO  : lopper command to build baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build
+15:27:50 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:27:51 INFO  : Successfully building the baremetal applicationC:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build
+15:27:51 INFO  : Generating Export directory
+15:27:51 INFO  : Platform Build Finished successfully.
+15:27:51 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s c:\Users\nedillon\Documents\lab1\lab1_part2\src -d C:\Users\nedillon\Documents\lab1\lab1_platform\export\lab1_platform\sw\freertos_ps7_cortexa9_0 -b c:\Users\nedillon\Documents\lab1\lab1_part2\build
+15:27:51 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s c:\Users\nedillon\Documents\lab1\lab1_part2\src -d C:\Users\nedillon\Documents\lab1\lab1_platform\export\lab1_platform\sw\freertos_ps7_cortexa9_0 -b c:\Users\nedillon\Documents\lab1\lab1_part2\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:27:52 INFO  : Successfully retargeted Application c:\Users\nedillon\Documents\lab1\lab1_part2\src
+15:27:52 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s c:\Users\nedillon\Documents\lab1\lab1_part2\src -b c:\Users\nedillon\Documents\lab1\lab1_part2\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:43:13 INFO  : BSP build will be initiated for Domain zynq_fsbl
+15:43:13 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+15:43:13 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+15:43:13 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:43:13 INFO  : BSP build will be initiated for Domain freertos_ps7_cortexa9_0
+15:43:13 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+15:43:13 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+15:43:13 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:43:13 INFO  : Domain reconfigured successfully
+15:43:13 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+15:43:13 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+15:43:13 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:43:13 INFO  : Domain reconfigured successfully
+15:43:13 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+15:43:13 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+15:43:13 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:43:13 INFO  : Domain build successfully
+15:43:13 INFO  : Domain build successfully
+15:43:13 INFO  : Generating Boot ELFs
+15:43:13 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build
+15:43:13 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:43:14 INFO  : Successfully retargeted Application C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl
+15:43:14 INFO  : lopper command to build baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build
+15:43:14 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:43:15 INFO  : Successfully building the baremetal applicationC:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build
+15:43:15 INFO  : Generating Export directory
+15:43:15 INFO  : Platform Build Finished successfully.
+15:43:15 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s c:\Users\nedillon\Documents\lab1\lab1_part1\src -d C:\Users\nedillon\Documents\lab1\lab1_platform\export\lab1_platform\sw\freertos_ps7_cortexa9_0 -b c:\Users\nedillon\Documents\lab1\lab1_part1\build
+15:43:15 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s c:\Users\nedillon\Documents\lab1\lab1_part1\src -d C:\Users\nedillon\Documents\lab1\lab1_platform\export\lab1_platform\sw\freertos_ps7_cortexa9_0 -b c:\Users\nedillon\Documents\lab1\lab1_part1\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:43:15 INFO  : Successfully retargeted Application c:\Users\nedillon\Documents\lab1\lab1_part1\src
+15:43:15 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s c:\Users\nedillon\Documents\lab1\lab1_part1\src -b c:\Users\nedillon\Documents\lab1\lab1_part1\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:43:34 INFO  : connect -url tcp:127.0.0.1:3121
+15:43:34 INFO  : bpremove -all
+15:43:35 INFO  : Context for 'APU' is selected.
+15:43:35 INFO  : System reset is completed.
+15:43:38 INFO  : 'after 3000' command is executed.
+15:43:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A77ACBA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A77ACBA-13722093-0"}' command is executed.
+15:43:39 INFO  : Device configured successfully with "C:/Users/nedillon/Documents/lab1/lab1_part1/_ide/bitstream/lab1_hw_wrapper.bit"
+15:43:39 INFO  : targets -set -nocase -filter {name =~"APU*"}
+15:43:40 INFO  : loadhw -hw C:/Users/nedillon/Documents/lab1/lab1_platform/export/lab1_platform/hw/lab1_hw_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+15:43:40 INFO  : configparams force-mem-access 1
+15:43:40 INFO  : targets -set -nocase -filter {name =~"APU*"}
+15:43:40 INFO  : source C:/Users/nedillon/Documents/lab1/lab1_part1/_ide/psinit/ps7_init.tcl
+15:43:41 INFO  : ps7_init
+15:43:41 INFO  : ps7_post_config
+15:43:41 INFO  : targets -set -nocase -filter {name =~ "*A9*#0"}
+15:43:41 INFO  : rst -processor
+15:43:41 INFO  : dow C:/Users/nedillon/Documents/lab1/lab1_part1/build/lab1_part1.elf
+15:43:41 INFO  : con
+15:43:41 INFO  : configparams force-mem-access 0
+15:43:42 INFO  : Testing the connection for 127.0.0.1
+15:45:11 INFO  : disconnect
+15:45:27 INFO  : connect -url tcp:127.0.0.1:3121
+15:45:27 INFO  : bpremove -all
+15:45:28 INFO  : Context for 'APU' is selected.
+15:45:28 INFO  : System reset is completed.
+15:45:31 INFO  : 'after 3000' command is executed.
+15:45:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A77ACBA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A77ACBA-13722093-0"}' command is executed.
+15:45:32 INFO  : Device configured successfully with "C:/Users/nedillon/Documents/lab1/lab1_part2/_ide/bitstream/lab1_hw_wrapper.bit"
+15:45:32 INFO  : targets -set -nocase -filter {name =~"APU*"}
+15:45:33 INFO  : loadhw -hw C:/Users/nedillon/Documents/lab1/lab1_platform/export/lab1_platform/hw/lab1_hw_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+15:45:33 INFO  : configparams force-mem-access 1
+15:45:33 INFO  : targets -set -nocase -filter {name =~"APU*"}
+15:45:33 INFO  : source C:/Users/nedillon/Documents/lab1/lab1_part2/_ide/psinit/ps7_init.tcl
+15:45:34 INFO  : ps7_init
+15:45:34 INFO  : ps7_post_config
+15:45:34 INFO  : targets -set -nocase -filter {name =~ "*A9*#0"}
+15:45:34 INFO  : rst -processor
+15:45:34 INFO  : dow C:/Users/nedillon/Documents/lab1/lab1_part2/build/lab1_part2.elf
+15:45:34 INFO  : bpadd main
+15:45:34 INFO  : con
+15:45:34 INFO  : configparams force-mem-access 0
+15:45:35 INFO  : Testing the connection for 127.0.0.1
+15:46:15 INFO  : disconnect
+15:47:34 INFO  : BSP build will be initiated for Domain zynq_fsbl
+15:47:34 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+15:47:34 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+15:47:34 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:47:34 INFO  : BSP build will be initiated for Domain freertos_ps7_cortexa9_0
+15:47:34 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+15:47:34 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+15:47:34 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:47:34 INFO  : Domain reconfigured successfully
+15:47:34 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+15:47:34 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+15:47:34 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:47:34 INFO  : Domain reconfigured successfully
+15:47:34 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+15:47:34 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+15:47:34 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:47:34 INFO  : Domain build successfully
+15:47:34 INFO  : Domain build successfully
+15:47:34 INFO  : Generating Boot ELFs
+15:47:34 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build
+15:47:34 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:47:34 INFO  : Successfully retargeted Application C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl
+15:47:34 INFO  : lopper command to build baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build
+15:47:34 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:47:35 INFO  : Successfully building the baremetal applicationC:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build
+15:47:35 INFO  : Generating Export directory
+15:47:35 INFO  : Platform Build Finished successfully.
+15:47:35 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s c:\Users\nedillon\Documents\lab1\lab1_part1\src -d C:\Users\nedillon\Documents\lab1\lab1_platform\export\lab1_platform\sw\freertos_ps7_cortexa9_0 -b c:\Users\nedillon\Documents\lab1\lab1_part1\build
+15:47:35 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s c:\Users\nedillon\Documents\lab1\lab1_part1\src -d C:\Users\nedillon\Documents\lab1\lab1_platform\export\lab1_platform\sw\freertos_ps7_cortexa9_0 -b c:\Users\nedillon\Documents\lab1\lab1_part1\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:47:36 INFO  : Successfully retargeted Application c:\Users\nedillon\Documents\lab1\lab1_part1\src
+15:47:36 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s c:\Users\nedillon\Documents\lab1\lab1_part1\src -b c:\Users\nedillon\Documents\lab1\lab1_part1\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:47:42 INFO  : BSP build will be initiated for Domain zynq_fsbl
+15:47:42 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+15:47:42 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+15:47:42 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:47:42 INFO  : BSP build will be initiated for Domain freertos_ps7_cortexa9_0
+15:47:42 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+15:47:42 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+15:47:42 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:47:42 INFO  : Domain reconfigured successfully
+15:47:42 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+15:47:42 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+15:47:42 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:47:42 INFO  : Domain reconfigured successfully
+15:47:42 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+15:47:42 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+15:47:42 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:47:42 INFO  : Domain build successfully
+15:47:42 INFO  : Domain build successfully
+15:47:42 INFO  : Generating Boot ELFs
+15:47:42 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build
+15:47:42 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:47:43 INFO  : Successfully retargeted Application C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl
+15:47:43 INFO  : lopper command to build baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build
+15:47:43 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:47:43 INFO  : Successfully building the baremetal applicationC:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build
+15:47:43 INFO  : Generating Export directory
+15:47:44 INFO  : Platform Build Finished successfully.
+15:47:44 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s c:\Users\nedillon\Documents\lab1\lab1_part2\src -d C:\Users\nedillon\Documents\lab1\lab1_platform\export\lab1_platform\sw\freertos_ps7_cortexa9_0 -b c:\Users\nedillon\Documents\lab1\lab1_part2\build
+15:47:44 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s c:\Users\nedillon\Documents\lab1\lab1_part2\src -d C:\Users\nedillon\Documents\lab1\lab1_platform\export\lab1_platform\sw\freertos_ps7_cortexa9_0 -b c:\Users\nedillon\Documents\lab1\lab1_part2\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:47:44 INFO  : Successfully retargeted Application c:\Users\nedillon\Documents\lab1\lab1_part2\src
+15:47:44 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s c:\Users\nedillon\Documents\lab1\lab1_part2\src -b c:\Users\nedillon\Documents\lab1\lab1_part2\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:47:52 INFO  : connect -url tcp:127.0.0.1:3121
+15:47:52 INFO  : bpremove -all
+15:47:53 INFO  : Context for 'APU' is selected.
+15:47:53 INFO  : System reset is completed.
+15:47:56 INFO  : 'after 3000' command is executed.
+15:47:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A77ACBA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A77ACBA-13722093-0"}' command is executed.
+15:47:57 INFO  : Device configured successfully with "C:/Users/nedillon/Documents/lab1/lab1_part2/_ide/bitstream/lab1_hw_wrapper.bit"
+15:47:57 INFO  : targets -set -nocase -filter {name =~"APU*"}
+15:47:58 INFO  : loadhw -hw C:/Users/nedillon/Documents/lab1/lab1_platform/export/lab1_platform/hw/lab1_hw_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+15:47:58 INFO  : configparams force-mem-access 1
+15:47:58 INFO  : targets -set -nocase -filter {name =~"APU*"}
+15:47:58 INFO  : source C:/Users/nedillon/Documents/lab1/lab1_part2/_ide/psinit/ps7_init.tcl
+15:47:58 INFO  : ps7_init
+15:47:58 INFO  : ps7_post_config
+15:47:58 INFO  : targets -set -nocase -filter {name =~ "*A9*#0"}
+15:47:58 INFO  : rst -processor
+15:47:58 INFO  : dow C:/Users/nedillon/Documents/lab1/lab1_part2/build/lab1_part2.elf
+15:47:58 INFO  : con
+15:47:58 INFO  : configparams force-mem-access 0
+15:47:59 INFO  : Testing the connection for 127.0.0.1
+16:04:12 INFO  : disconnect
+16:11:51 INFO  : connect -url tcp:127.0.0.1:3121
+16:11:51 INFO  : bpremove -all
+16:11:52 INFO  : Context for 'APU' is selected.
+16:11:52 INFO  : System reset is completed.
+16:11:55 INFO  : 'after 3000' command is executed.
+16:11:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A77ACBA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A77ACBA-13722093-0"}' command is executed.
+16:11:57 INFO  : Device configured successfully with "C:/Users/nedillon/Documents/lab1/lab1_part2/_ide/bitstream/lab1_hw_wrapper.bit"
+16:11:57 INFO  : targets -set -nocase -filter {name =~"APU*"}
+16:11:58 INFO  : loadhw -hw C:/Users/nedillon/Documents/lab1/lab1_platform/export/lab1_platform/hw/lab1_hw_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+16:11:58 INFO  : configparams force-mem-access 1
+16:11:58 INFO  : targets -set -nocase -filter {name =~"APU*"}
+16:11:58 INFO  : source C:/Users/nedillon/Documents/lab1/lab1_part2/_ide/psinit/ps7_init.tcl
+16:11:58 INFO  : ps7_init
+16:11:58 INFO  : ps7_post_config
+16:11:58 INFO  : targets -set -nocase -filter {name =~ "*A9*#0"}
+16:11:58 INFO  : rst -processor
+16:11:59 INFO  : dow C:/Users/nedillon/Documents/lab1/lab1_part2/build/lab1_part2.elf
+16:11:59 INFO  : con
+16:11:59 INFO  : configparams force-mem-access 0
+16:12:00 INFO  : Testing the connection for 127.0.0.1
+16:13:25 INFO  : disconnect
+16:13:30 INFO  : BSP build will be initiated for Domain zynq_fsbl
+16:13:30 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+16:13:30 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+16:13:30 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+16:13:30 INFO  : BSP build will be initiated for Domain freertos_ps7_cortexa9_0
+16:13:30 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+16:13:30 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+16:13:30 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+16:13:30 INFO  : Domain reconfigured successfully
+16:13:30 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+16:13:30 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+16:13:30 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+16:13:30 INFO  : Domain reconfigured successfully
+16:13:30 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+16:13:30 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+16:13:30 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+16:13:31 INFO  : Domain build successfully
+16:13:31 INFO  : Domain build successfully
+16:13:31 INFO  : Generating Boot ELFs
+16:13:31 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build
+16:13:31 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+16:13:31 INFO  : Successfully retargeted Application C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl
+16:13:31 INFO  : lopper command to build baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build
+16:13:31 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+16:13:32 INFO  : Successfully building the baremetal applicationC:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build
+16:13:32 INFO  : Generating Export directory
+16:13:32 INFO  : Platform Build Finished successfully.
+16:13:32 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s c:\Users\nedillon\Documents\lab1\lab1_part2\src -d C:\Users\nedillon\Documents\lab1\lab1_platform\export\lab1_platform\sw\freertos_ps7_cortexa9_0 -b c:\Users\nedillon\Documents\lab1\lab1_part2\build
+16:13:32 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s c:\Users\nedillon\Documents\lab1\lab1_part2\src -d C:\Users\nedillon\Documents\lab1\lab1_platform\export\lab1_platform\sw\freertos_ps7_cortexa9_0 -b c:\Users\nedillon\Documents\lab1\lab1_part2\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+16:13:32 INFO  : Successfully retargeted Application c:\Users\nedillon\Documents\lab1\lab1_part2\src
+16:13:32 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s c:\Users\nedillon\Documents\lab1\lab1_part2\src -b c:\Users\nedillon\Documents\lab1\lab1_part2\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+16:13:44 INFO  : connect -url tcp:127.0.0.1:3121
+16:13:44 INFO  : bpremove -all
+16:13:45 INFO  : Context for 'APU' is selected.
+16:13:45 INFO  : System reset is completed.
+16:13:48 INFO  : 'after 3000' command is executed.
+16:13:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A77ACBA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A77ACBA-13722093-0"}' command is executed.
+16:13:50 INFO  : Device configured successfully with "C:/Users/nedillon/Documents/lab1/lab1_part2/_ide/bitstream/lab1_hw_wrapper.bit"
+16:13:50 INFO  : targets -set -nocase -filter {name =~"APU*"}
+16:13:51 INFO  : loadhw -hw C:/Users/nedillon/Documents/lab1/lab1_platform/export/lab1_platform/hw/lab1_hw_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+16:13:51 INFO  : configparams force-mem-access 1
+16:13:51 INFO  : targets -set -nocase -filter {name =~"APU*"}
+16:13:51 INFO  : source C:/Users/nedillon/Documents/lab1/lab1_part2/_ide/psinit/ps7_init.tcl
+16:13:51 INFO  : ps7_init
+16:13:51 INFO  : ps7_post_config
+16:13:51 INFO  : targets -set -nocase -filter {name =~ "*A9*#0"}
+16:13:51 INFO  : rst -processor
+16:13:51 INFO  : dow C:/Users/nedillon/Documents/lab1/lab1_part2/build/lab1_part2.elf
+16:13:51 INFO  : con
+16:13:51 INFO  : configparams force-mem-access 0
+16:13:52 INFO  : Testing the connection for 127.0.0.1
+16:15:59 INFO  : disconnect
+16:16:03 INFO  : BSP build will be initiated for Domain zynq_fsbl
+16:16:03 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+16:16:03 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+16:16:03 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+16:16:03 INFO  : BSP build will be initiated for Domain freertos_ps7_cortexa9_0
+16:16:03 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+16:16:03 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+16:16:03 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+16:16:03 INFO  : Domain reconfigured successfully
+16:16:03 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+16:16:03 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+16:16:03 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+16:16:03 INFO  : Domain reconfigured successfully
+16:16:03 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+16:16:03 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+16:16:03 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+16:16:04 INFO  : Domain build successfully
+16:16:04 INFO  : Domain build successfully
+16:16:04 INFO  : Generating Boot ELFs
+16:16:04 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build
+16:16:04 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+16:16:04 INFO  : Successfully retargeted Application C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl
+16:16:04 INFO  : lopper command to build baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build
+16:16:04 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+16:16:05 INFO  : Successfully building the baremetal applicationC:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build
+16:16:05 INFO  : Generating Export directory
+16:16:05 INFO  : Platform Build Finished successfully.
+16:16:05 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s c:\Users\nedillon\Documents\lab1\lab1_part1\src -d C:\Users\nedillon\Documents\lab1\lab1_platform\export\lab1_platform\sw\freertos_ps7_cortexa9_0 -b c:\Users\nedillon\Documents\lab1\lab1_part1\build
+16:16:05 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s c:\Users\nedillon\Documents\lab1\lab1_part1\src -d C:\Users\nedillon\Documents\lab1\lab1_platform\export\lab1_platform\sw\freertos_ps7_cortexa9_0 -b c:\Users\nedillon\Documents\lab1\lab1_part1\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+16:16:05 INFO  : Successfully retargeted Application c:\Users\nedillon\Documents\lab1\lab1_part1\src
+16:16:05 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s c:\Users\nedillon\Documents\lab1\lab1_part1\src -b c:\Users\nedillon\Documents\lab1\lab1_part1\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+16:16:09 INFO  : connect -url tcp:127.0.0.1:3121
+16:16:09 INFO  : bpremove -all
+16:16:10 INFO  : Context for 'APU' is selected.
+16:16:10 INFO  : System reset is completed.
+16:16:13 INFO  : 'after 3000' command is executed.
+16:16:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A77ACBA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A77ACBA-13722093-0"}' command is executed.
+16:16:14 INFO  : Device configured successfully with "C:/Users/nedillon/Documents/lab1/lab1_part1/_ide/bitstream/lab1_hw_wrapper.bit"
+16:16:14 INFO  : targets -set -nocase -filter {name =~"APU*"}
+16:16:15 INFO  : loadhw -hw C:/Users/nedillon/Documents/lab1/lab1_platform/export/lab1_platform/hw/lab1_hw_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+16:16:15 INFO  : configparams force-mem-access 1
+16:16:15 INFO  : targets -set -nocase -filter {name =~"APU*"}
+16:16:15 INFO  : source C:/Users/nedillon/Documents/lab1/lab1_part1/_ide/psinit/ps7_init.tcl
+16:16:16 INFO  : ps7_init
+16:16:16 INFO  : ps7_post_config
+16:16:16 INFO  : targets -set -nocase -filter {name =~ "*A9*#0"}
+16:16:16 INFO  : rst -processor
+16:16:16 INFO  : dow C:/Users/nedillon/Documents/lab1/lab1_part1/build/lab1_part1.elf
+16:16:16 INFO  : con
+16:16:16 INFO  : configparams force-mem-access 0
+16:16:17 INFO  : Testing the connection for 127.0.0.1
+16:24:48 INFO  : BSP build will be initiated for Domain zynq_fsbl
+16:24:48 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+16:24:48 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+16:24:48 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+16:24:48 INFO  : BSP build will be initiated for Domain freertos_ps7_cortexa9_0
+16:24:48 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+16:24:48 INFO  : lopper command to reconfigure BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+16:24:48 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\reconfig_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+16:24:48 INFO  : Domain reconfigured successfully
+16:24:48 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+16:24:48 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp
+16:24:48 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+16:24:48 INFO  : Domain reconfigured successfully
+16:24:48 INFO  : Generating BSP for the domain C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+16:24:48 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp
+16:24:48 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\Users\nedillon\Documents\lab1\lab1_platform\ps7_cortexa9_0\freertos_ps7_cortexa9_0\bsp && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+16:24:48 INFO  : Domain build successfully
+16:24:48 INFO  : Domain build successfully
+16:24:48 INFO  : Generating Boot ELFs
+16:24:48 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build
+16:24:48 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -d C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+16:24:49 INFO  : Successfully retargeted Application C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl
+16:24:49 INFO  : lopper command to build baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//build_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build
+16:24:49 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl -b C:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+16:24:49 INFO  : Successfully building the baremetal applicationC:\Users\nedillon\Documents\lab1\lab1_platform\zynq_fsbl\build
+16:24:49 INFO  : Generating Export directory
+16:24:50 INFO  : Platform Build Finished successfully.
+16:24:50 INFO  : lopper command to retarget baremetal application :python C:\Xilinx\Vitis\2024.2\data\embeddedsw/scripts/pyesw//retarget_app.py -s c:\Users\nedillon\Documents\lab1\lab1_part2\src -d C:\Users\nedillon\Documents\lab1\lab1_platform\export\lab1_platform\sw\freertos_ps7_cortexa9_0 -b c:\Users\nedillon\Documents\lab1\lab1_part2\build
+16:24:50 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\retarget_app.py -s c:\Users\nedillon\Documents\lab1\lab1_part2\src -d C:\Users\nedillon\Documents\lab1\lab1_platform\export\lab1_platform\sw\freertos_ps7_cortexa9_0 -b c:\Users\nedillon\Documents\lab1\lab1_part2\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+16:24:50 INFO  : Successfully retargeted Application c:\Users\nedillon\Documents\lab1\lab1_part2\src
+16:24:50 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\build_app.py -s c:\Users\nedillon\Documents\lab1\lab1_part2\src -b c:\Users\nedillon\Documents\lab1\lab1_part2\build && C:\Xilinx\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+16:24:54 INFO  : connect -url tcp:127.0.0.1:3121
+16:24:54 INFO  : bpremove -all
+16:24:54 INFO  : Context for 'APU' is selected.
+16:24:54 INFO  : System reset is completed.
+16:24:57 INFO  : 'after 3000' command is executed.
+16:24:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A77ACBA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A77ACBA-13722093-0"}' command is executed.
+16:24:58 INFO  : Device configured successfully with "C:/Users/nedillon/Documents/lab1/lab1_part2/_ide/bitstream/lab1_hw_wrapper.bit"
+16:24:58 INFO  : targets -set -nocase -filter {name =~"APU*"}
+16:24:58 INFO  : loadhw -hw C:/Users/nedillon/Documents/lab1/lab1_platform/export/lab1_platform/hw/lab1_hw_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+16:24:58 INFO  : configparams force-mem-access 1
+16:24:58 INFO  : targets -set -nocase -filter {name =~"APU*"}
+16:24:58 INFO  : source C:/Users/nedillon/Documents/lab1/lab1_part2/_ide/psinit/ps7_init.tcl
+16:24:58 INFO  : ps7_init
+16:24:58 INFO  : ps7_post_config
+16:24:58 INFO  : targets -set -nocase -filter {name =~ "*A9*#0"}
+16:24:58 INFO  : rst -processor
+16:24:59 INFO  : dow C:/Users/nedillon/Documents/lab1/lab1_part2/build/lab1_part2.elf
+16:24:59 INFO  : con
+16:24:59 INFO  : configparams force-mem-access 0
+16:25:00 INFO  : Testing the connection for 127.0.0.1
+16:46:18 INFO  : connection terminated
+16:46:18 INFO  : connection terminated
+16:46:18 INFO  : scheduling shutdown timer for 2 seconds ...
+16:46:20 INFO  : Terminating Vitis C++ Server
+16:46:20 INFO  : Vitis C++ Server terminated
