@@ -1,1 +1,1 @@
-# ECE-315-lab1
+# ECE-315-labs
