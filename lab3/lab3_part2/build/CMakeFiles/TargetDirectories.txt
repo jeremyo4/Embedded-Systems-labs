@@ -1,0 +1,3 @@
+C:/Users/nedillon/Documents/lab3p2/part2/build/CMakeFiles/part2.elf.dir
+C:/Users/nedillon/Documents/lab3p2/part2/build/CMakeFiles/edit_cache.dir
+C:/Users/nedillon/Documents/lab3p2/part2/build/CMakeFiles/rebuild_cache.dir
