@@ -1,0 +1,3 @@
+C:/Users/jkodei/Documents/lab3/lab3_part1/build/CMakeFiles/lab3_part1.elf.dir
+C:/Users/jkodei/Documents/lab3/lab3_part1/build/CMakeFiles/edit_cache.dir
+C:/Users/jkodei/Documents/lab3/lab3_part1/build/CMakeFiles/rebuild_cache.dir
